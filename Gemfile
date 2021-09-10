@@ -10,9 +10,9 @@ gem "rdoc"
 
 gem "activemodel-serializers-xml", github: "rails/activemodel-serializers-xml"
 
-gem "rails-controller-testing"
+gem "rails-controller-testing", ">= 0.1.1"
 
-gem "responders", "~> 2.1"
+gem "responders", "~> 2.2", ">= 2.2.0"
 
 group :test do
   gem "omniauth-facebook"
